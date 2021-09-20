@@ -1,0 +1,388 @@
+body {
+    
+  background-color: #333333;
+  font-family: "Abhaya Libre", serif;
+}
+
+
+
+h1{
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top:49%;
+    left: 30%;
+    text-align: center;
+    z-index: 2;
+}
+h1:hover{
+    color: #C0C0C0;
+    text-shadow: 0 0 3px white, 0 0 5px whitesmoke;
+}
+
+h2{
+  color: snow;
+padding: 22px 0 30px;
+font-family: 'Open Sans', sans-serif;
+/* text-align: center; */
+text-align: left;
+}
+.page-headings h2{
+  font-size: 13px;
+
+}
+
+h3{
+  color: snow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px;
+  text-align: left;
+}
+p{
+  color: snow;
+  font-family:'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  line-height: 2rem;
+  padding-top: 5px;
+  }
+
+
+.container-fluid {
+  /* top,left and right,bottom */
+  padding: 1% 5% 0;
+}
+
+/*NAVBAR  */
+.navbar {
+  font-family: "Abhaya Libre", serif;
+  position: relative;
+}
+.navbar-brand {
+  font-size: Lemonada;
+  /* rem changes adjusts to screen size */
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 1028px) {
+  .navbar-brand{
+    font-size: 3rem;
+  }
+  
+}
+  
+ 
+
+/* TITLE IMAGES */
+.title_image{
+    position: absolute;
+    /* Moves the image 25% to the top */
+    top:19.3%;
+    left: 6%;
+    width: 78%;
+    height: 68%;
+    z-index: 1;
+    opacity: 0.9;
+    
+}
+
+.pattern_image {
+  position:relative;
+  left: 50%;
+  top: 27%;
+  /* width: 38%; */
+  /* height:65%; */
+  z-index: -2;
+  opacity: 0.23;
+}
+
+.home-p{
+  color: snow;
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2rem;
+  padding-top: 30px;
+
+}
+.gallary-p{
+  color: snow;
+  font-family:'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 10px;
+  padding-top: 5px;
+
+}
+
+/* GALAREY */
+
+/* END OF GALEREY */
+
+#home-photo-gallery {
+  margin-top: 3%;
+  /* top,left and right,bottom */
+  padding: 3% 6% 0;
+}
+
+/* .home-content-container h2{
+  
+  color: snow;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 0;
+  padding-left: 6%;
+  text-align: left;
+} */
+
+.home-content-container{
+  margin-top: 2%;
+padding: 0 10% 4%;
+}
+
+
+.home-shape{
+  font-family: 'Courier New', Courier, monospace;
+
+  font-size: 770px;
+  color: #c6a9a3;
+  position: absolute;
+  top:48.9%;
+  left:44.6%;
+  text-align:right;
+  z-index: -1;
+  opacity: 0.7;
+}
+#standards-content .content-shape-1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 570px;
+  color: #c6a9a3;
+  position: absolute;
+  top:122%;
+  right:53.5%;
+  z-index: -10;
+  opacity: 0.7;
+
+}
+
+.content-shape-2 p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 570px;
+  color: #c6a9a3;
+  position: absolute;
+  top:195%;
+  left:53.5%;
+  text-align: left;
+  z-index: -10;
+  opacity: 0.7;
+
+}
+
+
+
+/* ROOMS */
+.rooms-slid {
+  padding-left: 5%;
+
+}
+
+
+#rooms{
+  color: snow;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1% 5% 0;
+  position: relative;
+  
+}
+.events_img{
+  position: relative;
+  padding: 4px 5px;
+  width: 200px;
+  height:150px;
+}
+
+.view-room-btns{
+ 
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 25px;
+  /* /////////// */
+}
+
+#Column1_content {
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 50px;
+}
+#Column1_content h2{
+  font-size: 25px;
+}
+
+/* Booking */
+#booking_form{
+  color: snow;
+}
+.book-room{
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 5%;
+  margin-bottom: 25px;
+}
+hr.new1 {
+  border-top: 1px solid black;
+}
+/* reservations-form */
+#reservations-form{
+  color: snow;
+}
+
+
+/* Reservation Payment Form */
+#reservation-billing-form{
+  box-sizing: border-box;
+  /* padding: 3% 5% 0; */
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0;
+  margin-right: 30%;
+  margin-bottom: 5%;
+  background-color:gray;
+}
+#billing-form-content{
+  color: snow;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+
+
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+/* Hotel Tour */
+.photo-gallery {
+  color:snow;
+  background-color:#333333;
+}
+.photo-gallery h2{
+  font-family: 'Open Sans', sans-serif;
+
+text-align: left;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+/* end of hotel tour */
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 4% 5% 4%;
+  background-color: snow;
+}
+.footer-img {
+  margin: 1% 2% 3%;
+  
+}
+#footer P{
+  color: #333333;
+  text-align: center;
+}

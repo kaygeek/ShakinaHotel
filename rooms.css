@@ -1,0 +1,134 @@
+body {
+    
+    background-color: #333333;
+    font-family: "Abhaya Libre", serif;
+  }
+  #body-shape{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1390px;
+    color: #c6a9a3;
+    position: absolute;
+    top:54.9%;
+    left:5.5%;
+    text-align:center;
+    z-index: -9;
+    opacity: 0.7;
+    
+
+  }
+
+  h1{
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top:49%;
+    left: 30%;
+    text-align: center;
+    z-index: 2;
+}
+
+h2{
+    color: snow;
+  padding: 22px 0 30px;
+  font-family: 'Open Sans', sans-serif;
+  /* text-align: center; */
+  text-align: left;
+  }
+  .page-headings h2{
+    font-size: 13px;
+  
+  }
+  
+  h3{
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px;
+    text-align: left;
+  }
+  p{
+    color: snow;
+    font-family:'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 2rem;
+    padding-top: 5px;
+    }
+
+    .container-fluid {
+        /* top,left and right,bottom */
+        padding: 1% 5% 0;
+      }
+      
+      /*NAVBAR  */
+      .navbar {
+        font-family: "Abhaya Libre", serif;
+        position: relative;
+      }
+      .navbar-brand {
+        font-size: Lemonada;
+        /* rem changes adjusts to screen size */
+        font-size: 3.5rem;
+        font-weight: bolder;
+      }
+      
+      @media (max-width: 1028px) {
+        .navbar-brand{
+          font-size: 3rem;
+        }
+        
+      }
+  /* ROOMS */
+.rooms-slid {
+    padding-left: 5%;
+  
+  }
+  
+  
+  #rooms{
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1% 5% 0;
+    position: relative;
+    
+  }
+  .events_img{
+    position: relative;
+    padding: 4px 5px;
+    width: 200px;
+    height:150px;
+  }
+  
+  .view-room-btns{
+
+    margin: 5% 3% 20% 0;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  #Column1_content {
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 50px;
+  }
+  #Column1_content h2{
+    font-size: 25px;
+  }
+  /* footer section */
+#footer {
+    text-align: center;
+    padding: 4% 5% 4%;
+    background-color: snow;
+    margin-top: 5%;
+  }
+  .footer-img {
+    margin: 1% 2% 3%;
+    
+  }
+  #footer P{
+    color: #333333;
+    text-align: center;
+  }

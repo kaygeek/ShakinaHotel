@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- favicon link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Classic Room</title>
+    <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet"
+  />">
+
+  <!-- ######### -->
+  
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <!-- put the logo anker before the buton so that the logo doest go to the right of your screen when using a smaller screen -->
+            <a class="navbar-brand" href="">SHAKI-NA</a>
+            <!-- Drop down button toggler for the navBar-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- put everything in the list in this div and class so that they can go into the menu button, make sure your id matches the button target so that it functions -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="rooms.html">Rooms</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="hotel-tour.html">Hotel Tour</a>
+                </li>
+              
+                
+              </ul>
+            </div>
+          </nav>
+          <section id="reservations-form">
+            <h2>View Rates</h2>
+            <form>
+        
+                 
+              <div class="row">
+               
+  
+                    <div class="col-md-6">
+                      <div class="form-group"> <input class="form-control" type="text" required> <span class="form-label">First Name</span> </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group"> <input class="form-control" type="text" required> <span class="form-label">Last Name</span> </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group"> <input class="form-control" type="email" required> <span class="form-label">E mail</span> </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group"> <input class="form-control" type="number" required> <span class="form-label">Phone Number</span> </div>
+                </div>
+                
+             
+                <div class="col-md-6">
+                  <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Check In</span> </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Check out</span> </div>
+              </div>
+                  <div class="col-md-4">
+                      <div class="form-group"> <select class="form-control" required>
+                              <option value="" selected hidden>Rooms</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                          </select> <span class="select-arrow"></span> <span class="form-label">Rooms</span> </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="form-group"> <select class="form-control" required>
+                              <option value="" selected hidden>Adults</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                          </select> <span class="select-arrow"></span> <span class="form-label">Adults</span> </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="form-group"> <select class="form-control" required>
+                              <option value="" selected hidden>Children</option>
+                              <option>0</option>
+                              <option>1</option>
+                              <option>2</option>
+                          </select> <span class="select-arrow"></span> <span class="form-label">Children</span> </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="form-group"> <input class="form-control" type="text" required> <span class="form-label">TOTAL</span> </div>
+  
+                  </div>
+              </div>
+          </form>
+
+          </section>
+
+          
+
+              
+            
+
+       
+       
+       
+        <section id="reservation-billing-form">
+
+            <div id="billing-form-content">
+                <div class="row">
+                    <div class="col-50">
+                      <h3>Billing Information</h3>
+                      <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="K Kgaugelo">
+                      <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                      <input type="text" id="email" name="email" placeholder="kgaugelomarak@gmail.com">
+                      <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                      <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                      <label for="city"><i class="fa fa-institution"></i> City</label>
+                      <input type="text" id="city" name="city" placeholder="Johannesburg">
+                      <div class="row">
+                        <div class="col-50">
+                          <label for="expyear">Exp Year</label>
+                          <input type="text" id="expyear" name="expyear" placeholder="2018">
+                        </div>
+                        <div class="col-50">
+                          <label for="cvv">CVV</label>
+                          <input type="text" id="cvv" name="cvv" placeholder="352">
+                        </div>
+                      </div>
+          
+                     
+                    </div>
+          
+                    <div class="col-50">
+                      <h3>Payment</h3>
+                      <label for="fname">Accepted Cards</label>
+                      <div class="icon-container">
+                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                      </div>
+                      <label for="cname">Name on Card</label>
+                      <input type="text" id="cname" name="cardname" placeholder="K Marakalla">
+                      <label for="ccnum">Credit card number</label>
+                      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                      <label for="expmonth">Exp Month</label>
+                      <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                     
+                    </div>
+                    
+                  </div>
+                  <a href="#"><button type="button" class="view-room-btns btn btn-secondary btn-l" width="150">Checkout</button></a>
+                </form>
+
+            </div>
+           
+
+        </section>
+         
+    
+
+
+       
+         
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+
+  
+
+
+  </body>
+</html>
